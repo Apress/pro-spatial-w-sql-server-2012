@@ -1,0 +1,5 @@
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI\bin\Ch16_VisualisationUI.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI\bin\Ch16_VisualisationUI.pdb
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI\obj\Debug\Ch16_VisualisationUI.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI\obj\Debug\Ch16_VisualisationUI.pdb

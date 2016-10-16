@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Bing Maps Interface</title>
+  <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+  <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.4.min.js"></script>
+  <script type="text/javascript">
+
+    // Declare the radius of the search area (in metres)
+    radius = 50000;
+
+    // When the document is ready
+    $(document).ready(function () {
+
+      // Create a new map
+      map = new Microsoft.Maps.Map(document.getElementById("mapDiv"),
+                           { credentials: "ENTERYOURBINGMAPSKEYHERE",
+                             center: new Microsoft.Maps.Location(38, -122),
+                             mapTypeId: Microsoft.Maps.MapTypeId.birdseye,
+                             zoom: 8
+                           });
+
+      // Listen to mouse clicks on the map
+      Microsoft.Maps.Events.addHandler(map, 'click', function (e) {
+        // If user clicks on a pushpin, bring up an infobox displaying information about that airport
+        if (e.targetType == "pushpin") {
+          var infobox = new Microsoft.Maps.Infobox(e.target.getLocation(), { title: e.target.Title, description: e.target.Description });
+          map.entities.push(infobox);
+        }
+        // If the user clicks anywhere else on the map
+        else {
+          // Clear the map
+          map.entities.clear();
+
+          // Get the lat/long coordinates of where the mouse click
+          var point = new Microsoft.Maps.Point(e.getX(), e.getY());
+          var loc = map.tryPixelToLocation(point);
+
+          // Draw a circle around this point
+          DrawCircleAroundPoint(loc, radius);
+
+          // Find all airports within range of this point
+          GetAirportsWithinSearchArea(loc, radius);
+        }
+      });
+    });
+
+    // Draws a circle of given radius around a location
+    function DrawCircleAroundPoint(loc, radius) {
+      // Convert angular coordinates to radians
+      var lat = loc.latitude * Math.PI / 180; 
+      var lon = loc.longitude * Math.PI / 180;
+      var d = radius / 6371000; // angular radius of search area
+
+      // Determine an array of locations lying in a circle around the chosen point
+      var locs = [];
+      for (var x = 0; x <= 360; x++) {
+        var latRadians = Math.asin(Math.sin(lat) * Math.cos(d) + Math.cos(lat) * Math.sin(d) * Math.cos(x * Math.PI / 180));
+        var lngRadians = lon + Math.atan2(Math.sin(x * Math.PI / 180) * Math.sin(d) * Math.cos(lat), Math.cos(d) - Math.sin(lat) * Math.sin(latRadians));
+        locs.push(new Microsoft.Maps.Location(latRadians / Math.PI * 180, lngRadians / Math.PI * 180));
+      }
+      // Create polygon from this array of locations and put it on the map
+      var searchArea = new Microsoft.Maps.Polygon(locs, {
+        strokeColor: new Microsoft.Maps.Color(150, 255, 0, 0),
+        fillColor: new Microsoft.Maps.Color(150, 255, 155, 20)
+      });
+      map.entities.push(searchArea);
+    }
+
+    // Retrieves airports lying within a given radius of supplied location
+    // and plots them on the map
+    function GetAirportsWithinSearchArea(loc, radius) {
+      $.getJSON(
+              "Handler.ashx",
+              { lat: loc.latitude, long: loc.longitude, radius: radius },
+              function (data) {
+                for (var i = 0; i < data.length; i++) {
+                  var loc = new Microsoft.Maps.Location(data[i].Lat, data[i].Long);
+                  var pushpin = new Microsoft.Maps.Pushpin(loc);
+                  pushpin.Title = data[i].Name;
+                  pushpin.Description = data[i].City + ', ' + data[i].State;
+                  map.entities.push(pushpin);
+                }
+              });
+    }
+  </script>
+  <style type="text/css">
+    #mapDiv
+    {
+      width: 800px;
+      height: 600px;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div id="mapDiv"></div>
+</body>
+</html>

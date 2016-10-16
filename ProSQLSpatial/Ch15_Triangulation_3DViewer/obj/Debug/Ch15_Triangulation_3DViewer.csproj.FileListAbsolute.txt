@@ -1,0 +1,13 @@
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\bin\Debug\Ch15_Triangulation_3DViewer.exe
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\bin\Debug\Ch15_Triangulation_3DViewer.pdb
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\MainWindow.baml
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\MainWindow.g.cs
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\App.g.cs
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\Ch15_Triangulation_3DViewer_MarkupCompile.cache
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\Ch15_Triangulation_3DViewer.g.resources
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\Ch15_Triangulation_3DViewer.Properties.Resources.resources
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\ResGen.read.1.tlog
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\ResGen.write.1.tlog
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\Ch15_Triangulation_3DViewer.exe
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation_3DViewer\obj\Debug\Ch15_Triangulation_3DViewer.pdb

@@ -1,0 +1,5 @@
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch14_Routefinding\bin\Debug\Ch14_Routefinding.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch14_Routefinding\bin\Debug\Ch14_Routefinding.pdb
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch14_Routefinding\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch14_Routefinding\obj\Debug\Ch14_Routefinding.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch14_Routefinding\obj\Debug\Ch14_Routefinding.pdb

@@ -1,0 +1,5 @@
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation\bin\Debug\Ch15_Triangulation.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation\bin\Debug\Ch15_Triangulation.pdb
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation\obj\Debug\Ch15_Triangulation.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch15_Triangulation\obj\Debug\Ch15_Triangulation.pdb

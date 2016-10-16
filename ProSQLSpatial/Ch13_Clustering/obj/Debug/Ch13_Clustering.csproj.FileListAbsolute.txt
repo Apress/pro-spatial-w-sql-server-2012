@@ -1,0 +1,5 @@
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch13_Clustering\bin\Debug\Ch13_Clustering.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch13_Clustering\bin\Debug\Ch13_Clustering.pdb
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch13_Clustering\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch13_Clustering\obj\Debug\Ch13_Clustering.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch13_Clustering\obj\Debug\Ch13_Clustering.pdb

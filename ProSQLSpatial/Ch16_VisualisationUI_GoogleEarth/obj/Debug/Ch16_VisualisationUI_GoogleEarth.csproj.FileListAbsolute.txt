@@ -1,0 +1,5 @@
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI_GoogleEarth\bin\Debug\Ch16_VisualisationUI_GoogleEarth.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI_GoogleEarth\bin\Debug\Ch16_VisualisationUI_GoogleEarth.pdb
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI_GoogleEarth\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI_GoogleEarth\obj\Debug\Ch16_VisualisationUI_GoogleEarth.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch16_VisualisationUI_GoogleEarth\obj\Debug\Ch16_VisualisationUI_GoogleEarth.pdb

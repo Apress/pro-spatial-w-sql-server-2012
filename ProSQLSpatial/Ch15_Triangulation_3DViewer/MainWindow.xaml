@@ -1,0 +1,32 @@
+﻿<Window x:Class="Ch15_Triangulation_3DViewer.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Pro Spatial with SQL Server 2011 - 3D Triangulated Surface Viewer" Height="768" Width="1024" KeyDown="KeyDownEventHandler">
+  <Grid Background="White">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" MinHeight="13.75" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="200" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <StackPanel Grid.Column="0">
+      <TextBlock x:Name="info" Grid.Row="0" Text="Model Info:" />
+    </StackPanel>
+    <Viewport3D x:Name="viewport" Grid.Row="1" Grid.Column="1" >
+      <Viewport3D.Camera>
+        <PerspectiveCamera x:Name="camera" FarPlaneDistance="250" LookDirection="0.0 1.0 0.0"
+					UpDirection="0,1,0" NearPlaneDistance="0" Position="531800,5121800,600"
+					FieldOfView="60" />
+      </Viewport3D.Camera>
+      <ModelVisual3D x:Name="model">
+        <ModelVisual3D.Content>
+          <Model3DGroup x:Name="group">
+            <DirectionalLight Color="White" Direction="1, -1, 0.5" />
+          </Model3DGroup>
+        </ModelVisual3D.Content>
+      </ModelVisual3D>
+    </Viewport3D>
+  </Grid>
+</Window>

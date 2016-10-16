@@ -1,0 +1,8 @@
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch8_Transformation\bin\Debug\Ch8_Transformation.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch8_Transformation\bin\Debug\Ch8_Transformation.pdb
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch8_Transformation\bin\Debug\ProjNet.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch8_Transformation\bin\Debug\ProjNet.pdb
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch8_Transformation\bin\Debug\ProjNet.xml
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch8_Transformation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch8_Transformation\obj\Debug\Ch8_Transformation.dll
+C:\Users\Alastair\Documents\Visual Studio 2008\Projects\ProSQLSpatial\Ch8_Transformation\obj\Debug\Ch8_Transformation.pdb

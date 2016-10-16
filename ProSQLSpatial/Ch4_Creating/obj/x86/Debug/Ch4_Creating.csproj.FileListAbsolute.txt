@@ -1,0 +1,5 @@
+C:\Users\Alastair\Desktop\ProSQLSpatial\ProSQLSpatial\Ch4_Creating\bin\Debug\Ch4_Creating.exe
+C:\Users\Alastair\Desktop\ProSQLSpatial\ProSQLSpatial\Ch4_Creating\bin\Debug\Ch4_Creating.pdb
+C:\Users\Alastair\Desktop\ProSQLSpatial\ProSQLSpatial\Ch4_Creating\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alastair\Desktop\ProSQLSpatial\ProSQLSpatial\Ch4_Creating\obj\x86\Debug\Ch4_Creating.exe
+C:\Users\Alastair\Desktop\ProSQLSpatial\ProSQLSpatial\Ch4_Creating\obj\x86\Debug\Ch4_Creating.pdb
